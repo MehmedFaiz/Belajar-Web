@@ -1,0 +1,12 @@
+blockquote {
+	font-size: 24px;
+}
+			
+blockquote::before {
+	content: open-quote;
+}
+		
+blockquote::after {
+	content: close-quote;
+}
+
